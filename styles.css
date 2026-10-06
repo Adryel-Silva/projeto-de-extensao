@@ -21,9 +21,6 @@ nav{
     width: 60%;
     padding: 10px;
 }
-.logo{
-    position: absolute;
-}
 nav ul{
     list-style: none;
     display: flex;
@@ -108,4 +105,9 @@ footer{
     gap: 100px;
     display: flex;
     flex-direction: row;
+}
+.icons img{
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
 }
