@@ -1,13 +1,15 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-body{
+
+body {
     font-family: Arial, sans-serif;
-   
+
 }
-header{
+
+header {
     width: 100%;
     height: 60px;
     background-color: #D28418;
@@ -17,42 +19,47 @@ header{
     align-items: center;
     justify-content: space-between;
 }
-nav ul{
+
+nav ul {
     list-style: none;
     display: flex;
     text-align: end;
 
 }
-nav ul li{
+nav ul li {
     margin-right: 20px;
 }
-nav ul li a{
+
+nav ul li a {
     text-decoration: none;
     color: #fff;
     font-weight: bold;
-}   
-img{
+}
+
+img {
     width: 80px;
     height: 80px;
     margin-right: 10px;
 }
-h1{
+h1 {
     font-size: 24px;
 }
-main{
+
+main {
     width: 100%;
     min-height: 100vh;
     display: flex;
     justify-content: space-evenly;
-    align-items: start; 
-    background-image: url(./imagens/pngtree-golden-retriever-dog-pictures-png-image_15147078\ 1.png);     
+    align-items: start;
+    background-image: url(./imagens/pngtree-golden-retriever-dog-pictures-png-image_15147078\ 1.png);
     background-repeat: no-repeat;
     background-size: 900px 600px;
-    background-position:right bottom;
-    background-attachment: fixed; 
+    background-position: right bottom;
+    background-attachment: fixed;
     margin-top: 20px;
 }
-section{
+
+section {
     width: 20%;
     height: 300px;
     background-color: #D28418;
@@ -61,15 +68,18 @@ section{
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
-section h2{
+
+section h2 {
     font-size: 20px;
     margin-bottom: 10px;
 }
-section p{
+
+section p {
     font-size: 16px;
     line-height: 1.5;
-}   
-.retangulo{
+}
+
+.retangulo {
     width: 1000px;
     height: 600px;
     background-color: #f80707;
@@ -77,6 +87,4 @@ section p{
     position: absolute;
     transform: translate(-10px, 150px);
     z-index: -1;
-
-
 }
